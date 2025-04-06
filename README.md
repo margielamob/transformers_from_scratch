@@ -171,7 +171,7 @@ Beam search keeps track of multiple hypotheses at each decoding step, which ofte
 
 ## Future Work
 JAX Implementation
-One of the planned improvements is to rewrite this codebase using JAX for better performance, particularly to leverage Apple Silicon acceleration. JAX's just-in-time compilation and automatic differentiation should provide significant speed improvements over the current PyTorch implementation.
+One of the planned improvements is to rewrite this codebase using JAX for better performance, particularly to leverage Apple Silicon acceleration.
 
 ## Acknowledgments
 
